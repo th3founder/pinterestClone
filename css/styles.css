@@ -1,0 +1,218 @@
+:root{
+    --card_width: 250px;
+    --card_border_radius: 16px;
+    --row_increment: 10px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+    --card_font: 'Noto Sans', sans-serif;
+    --card_font_weight: 700;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/* Header section----------------------------------------*/
+/* Header section----------------------------------------*/
+/* Header section----------------------------------------*/
+/* Header section----------------------------------------*/
+.header-container{
+    width: 100vw;
+    height: 8rem;
+    border: 2px solid black;
+}
+
+#navbar-pinterest{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid pink;
+
+}
+
+
+.logo_pinterest{
+    margin-left: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.logo_pinterest i{
+    color: red;
+}
+
+.logo_pinterest:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.header-home{
+    text-decoration: none;
+    padding: 1.4rem 1.6rem;
+    background-color: black;
+    border-radius: 2.6rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.header-today{
+    text-decoration: none;
+    padding: 1.4rem 1.6rem;
+    background-color: white;
+    border-radius: 2.6rem;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: black;   
+}
+
+.header-today:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+
+.search-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size: 1.6rem;
+    color: rgb(114, 114, 114);
+    margin-left: 1.3rem;
+}
+.finder{
+    width: 65%;
+    height: 5rem;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    font-size: 1.6rem;
+    color: rgb(114, 114, 114);
+
+}
+.finder:hover{
+    background-color:rgb(223, 223, 223);
+}
+
+.search-border{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 1.6rem;
+    color: rgb(114, 114, 114);
+}
+
+.search-iconR{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    color: rgb(114, 114, 114);
+}
+
+.search-iconR:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+
+#profile-img img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Main section---------------------------------------------------- */
+/* Main section---------------------------------------------------- */
+/* Main section---------------------------------------------------- */
+/* Main section---------------------------------------------------- */
+#content{
+    width: 90vw;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+
+}
+
+.card{
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: red;
+
+}
+
+.card_small{
+    grid-row-end: span var(--card_small);
+}
+
+.card_medium{
+    grid-row-end: span var(--card_medium);
+}
+
+.card_large{
+    grid-row-end: span var(--card_large);
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+}
+
+/*Imagenes-------*/
+figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--card_border_radius);
+    
+}
+
+.save{
+    position: absolute;
+    margin: 1.2rem 10rem 0;
+    padding: 1.6rem 2.8rem;
+    border-radius: 3rem;
+    background-color: red;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+}
+
+/*hooveerss*/
+.save{
+}
