@@ -155,7 +155,6 @@ html{
 /* Main section---------------------------------------------------- */
 #content{
     width: 90vw;
-    background-color: black;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -211,8 +210,489 @@ figure>img{
     color: white;
     font-family: var(--card_font);
     font-weight: var(--card_font_weight);
+    display: none;
 }
 
+/*Configurando elementos por tamaño de card*/
+
+.card1-autor{
+    position: absolute;
+    margin: 18.5rem 1rem 0;
+    padding: 1rem 2.2rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+.icon-margin{
+    margin-right: 0.5rem;
+}
+.card1-down{
+    position: absolute;
+    margin: 18.5rem 14rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+
+}
+
+.card1-points{
+    position: absolute;
+    margin: 18.5rem 18.3rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+
+.card2-autor{
+    position: absolute;
+    margin: 25rem 1rem 0;
+    padding: 1rem 2.2rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+
+.card2-down{
+    position: absolute;
+    margin: 25rem 14rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+
+}
+
+.card2-points{
+    position: absolute;
+    margin: 25rem 18.3rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+
+.card3-autor{
+    position: absolute;
+    margin: 37rem 1rem 0;
+    padding: 1rem 2.2rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+
+.card3-down{
+    position: absolute;
+    margin: 37rem 14rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+
+}
+
+.card3-points{
+    position: absolute;
+    margin: 37rem 18.3rem 0;
+    padding: 1rem 1.3rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--card_font);
+    font-weight: var(--card_font_weight);
+    display: none;
+}
+
+
+
 /*hooveerss*/
-.save{
+.save:hover{
+    
+}
+
+/*Imagenes en carts hover*/
+
+.card:hover a{
+    display: block;
+}
+
+.card:hover .save:hover{
+    background-color: rgb(165, 1, 1);
+}
+
+.card:hover .autor:hover{
+    background-color: white;
+}
+
+.card:hover .down:hover{
+    background-color: white;
+}
+.card:hover .points:hover{
+    background-color: white;
+}   
+/*Imagenes en carts -------------------*/
+
+.card1{
+    background-image: url(https://i.pinimg.com/474x/2a/59/86/2a59867d6c10f43676a5af415a0bd83d.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+.card1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)), url("https://i.pinimg.com/474x/2a/59/86/2a59867d6c10f43676a5af415a0bd83d.jpg");
+}
+
+
+.card2{
+    background-image: url(https://i.pinimg.com/474x/c3/13/57/c313573f24ecade589659a7f62f3cb78.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/c3/13/57/c313573f24ecade589659a7f62f3cb78.jpg");
+}
+
+.card3{
+    background-image: url(https://i.pinimg.com/474x/18/93/50/189350ae12cee7126532ca16789e97df.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/18/93/50/189350ae12cee7126532ca16789e97df.jpg");
+}
+
+.card4{
+    background-image: url(https://i.pinimg.com/474x/54/45/96/54459686a078922d679eed89467f5725.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/54/45/96/54459686a078922d679eed89467f5725.jpg");
+}
+
+.card5{
+    background-image: url(https://i.pinimg.com/474x/c7/d2/85/c7d28554192597ef2b9f5bb3bee6de44.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card5:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/c7/d2/85/c7d28554192597ef2b9f5bb3bee6de44.jpg");
+}
+
+.card6{
+    background-image: url(https://i.pinimg.com/474x/e8/0f/1f/e80f1f34e421f953ae2177ce09b13e75.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/e8/0f/1f/e80f1f34e421f953ae2177ce09b13e75.jpg");
+}
+
+
+.card7{
+    background-image: url(https://i.pinimg.com/474x/02/a2/24/02a2242696affefc317b322a1e94d2f4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card7:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/02/a2/24/02a2242696affefc317b322a1e94d2f4.jpg");
+}
+
+.card8{
+    background-image: url(https://i.pinimg.com/474x/fc/92/1d/fc921d243e0ca308617027f0e437047a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/fc/92/1d/fc921d243e0ca308617027f0e437047a.jpg");
+}
+
+.card9{
+    background-image: url(https://i.pinimg.com/474x/80/0b/6e/800b6ecc5d5de8909faed71ec30484ec.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/80/0b/6e/800b6ecc5d5de8909faed71ec30484ec.jpg");
+}
+
+.card10{
+    background-image: url(https://i.pinimg.com/474x/8f/74/99/8f7499039ce4f8aa7ebfb1e353e077d2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card10:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/8f/74/99/8f7499039ce4f8aa7ebfb1e353e077d2.jpg");
+}
+
+.card11{
+    background-image: url(https://i.pinimg.com/474x/52/db/f0/52dbf08519d96a8d48d97366eaa6c480.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card11:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/52/db/f0/52dbf08519d96a8d48d97366eaa6c480.jpg");
+}
+
+.card12{
+    background-image: url(https://i.pinimg.com/474x/80/d4/46/80d4468a3142ea416412cddc4ed2c88f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card12:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/80/d4/46/80d4468a3142ea416412cddc4ed2c88f.jpg");
+}
+
+.card13{
+    background-image: url(https://i.pinimg.com/474x/e5/cb/d9/e5cbd985b764e6f43f429b559e7490bd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card13:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/e5/cb/d9/e5cbd985b764e6f43f429b559e7490bd.jpg");
+}
+
+.card14{
+    background-image: url(https://i.pinimg.com/474x/99/e4/85/99e4855d498fa1f006f62cc44ccdea6f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card14:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/99/e4/85/99e4855d498fa1f006f62cc44ccdea6f.jpg");
+}
+
+.card15{
+    background-image: url(https://i.pinimg.com/474x/43/e4/7d/43e47db8c534938f2ac65e4aca15a7b4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card15:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/43/e4/7d/43e47db8c534938f2ac65e4aca15a7b4.jpg");
+}
+
+.card16{
+    background-image: url(https://i.pinimg.com/474x/27/7f/b0/277fb0a135fb64ff9bfd20ea45957716.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card16:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/27/7f/b0/277fb0a135fb64ff9bfd20ea45957716.jpg");
+}
+
+.card17{
+    background-image: url(https://i.pinimg.com/474x/ec/aa/5b/ecaa5be316da492c7929593e60dd3248.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card17:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/ec/aa/5b/ecaa5be316da492c7929593e60dd3248.jpg");
+}
+
+.card18{
+    background-image: url(https://i.pinimg.com/474x/bc/7b/12/bc7b12b66b68727b4b6227abd323c63e.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card18:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/bc/7b/12/bc7b12b66b68727b4b6227abd323c63e.jpg");
+}
+
+.card19{
+    background-image: url(https://i.pinimg.com/474x/84/12/5d/84125ddfaeeed57f8f4d9858fbc7ce2b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card19:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/84/12/5d/84125ddfaeeed57f8f4d9858fbc7ce2b.jpg");
+}
+
+.card20{
+    background-image: url(https://i.pinimg.com/474x/c5/3f/6f/c53f6fc6290fcc3e4fec8b5f6d9d12d5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card20:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/c5/3f/6f/c53f6fc6290fcc3e4fec8b5f6d9d12d5.jpg");
+}
+
+.card21{
+    background-image: url(https://i.pinimg.com/474x/ad/46/28/ad46288d8cef640a7961a12b4d74dc68.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card21:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/ad/46/28/ad46288d8cef640a7961a12b4d74dc68.jpg");
+}
+
+.card22{
+    background-image: url(https://i.pinimg.com/474x/2b/07/25/2b07255498df471a770238cfeac51f54.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card22:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/2b/07/25/2b07255498df471a770238cfeac51f54.jpg");
+}
+
+.card23{
+    background-image: url(https://i.pinimg.com/474x/30/69/09/3069098c2b45a25e8f0801e3b0637fed.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card23:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/30/69/09/3069098c2b45a25e8f0801e3b0637fed.jpg");
+}
+
+.card24{
+    background-image: url(https://i.pinimg.com/474x/c1/38/31/c13831a734c33da98bc8ab93bec7deaf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card24:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/c1/38/31/c13831a734c33da98bc8ab93bec7deaf.jpg");
+}
+
+.card25{
+    background-image: url(https://i.pinimg.com/474x/73/84/8e/73848ed11a2e45464768eea22c04cdf8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card25:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/73/84/8e/73848ed11a2e45464768eea22c04cdf8.jpg");
+}
+
+.card26{
+    background-image: url(https://i.pinimg.com/474x/3a/9a/b1/3a9ab1dc028bcba2cfbcb3126ccb9c35.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card26:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/3a/9a/b1/3a9ab1dc028bcba2cfbcb3126ccb9c35.jpg");
+}
+
+.card27{
+    background-image: url(https://i.pinimg.com/474x/8a/78/93/8a7893df5539a002c9a1d28548bc2030.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card27:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/8a/78/93/8a7893df5539a002c9a1d28548bc2030.jpg");
+}
+
+.card28{
+    background-image: url(https://i.pinimg.com/474x/9c/71/8d/9c718dc73b5fa6003c09444e1480957f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card28:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/9c/71/8d/9c718dc73b5fa6003c09444e1480957f.jpg");
+}
+
+.card29{
+    background-image: url(https://i.pinimg.com/474x/50/8e/91/508e91ba293c6b595797c95be13817cc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card29:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/50/8e/91/508e91ba293c6b595797c95be13817cc.jpg");
+}
+
+.card30{
+    background-image: url(https://i.pinimg.com/474x/12/20/71/122071855fcba2688387ceb1313258e7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card30:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/12/20/71/122071855fcba2688387ceb1313258e7.jpg");
+}
+
+.card31{
+    background-image: url(https://i.pinimg.com/474x/45/80/c3/4580c394988af3673cfc3e22f958042c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card31:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/45/80/c3/4580c394988af3673cfc3e22f958042c.jpg");
+}
+
+.card32{
+    background-image: url(https://i.pinimg.com/474x/97/74/cc/9774ccd3f86b80001647a06853f9b57c.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card32:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/97/74/cc/9774ccd3f86b80001647a06853f9b57c.jpg");
 }
