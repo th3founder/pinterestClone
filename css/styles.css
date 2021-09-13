@@ -696,3 +696,24 @@ figure>img{
 .card32:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.288),rgba(0, 0, 0, 0.288)),  url("https://i.pinimg.com/474x/97/74/cc/9774ccd3f86b80001647a06853f9b57c.jpg");
 }
+
+/* Queryss------------ *//* Queryss------------ */
+/* Queryss------------ *//* Queryss------------ */
+/* Queryss------------ *//* Queryss------------ */
+@media (max-width: 480px)  {
+    body{
+    }
+
+    .header-home{
+        padding: 1rem 1rem;
+    }
+    .header-today{
+        display: none;
+    }
+    
+    .search-icon{
+        margin-left: .5rem;
+    }
+    
+    
+}
